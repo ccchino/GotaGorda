@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+body{
+    background: url(./img/fondo1.jpg) rgba(0, 0, 0, 0.3);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sidebar {
+  background-color: rgba(0, 0, 0, 0.9) !important;
+  color: white !important;
+}
+
+.sidebar a {
+  color: white !important;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+}
+.logo:hover{
+    transform: scale(1.1,1.1);
+}
+.nav-item:hover{
+    transform: scale(1.2,1.2);
+
+}
+h1{ 
+    font-family: "Pirata One", system-ui; 
+    font-weight: 400; 
+    font-size: 50px; 
+    font-style: normal; 
+    color: white;  
+}
+.d-item{
+    height: 500px;
+}
+.d-img{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+h2{
+    font-family: "Pirata One", system-ui; 
+    font-weight: 400; 
+    font-size: 100px; 
+    font-style: normal; 
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+h3, h4{
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h4:hover{
+    color: red;
+}
+
+.copy{
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+.igcreador{
+    text-decoration: none;
+    color: white;
+}
+.productos{
+    text-decoration: none;
+}
+.card-wrapper {
+  padding-top: 50px;
+}
+
+.whatsapp-button {
+  display: inline-block;
+  background-color: #25D366;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.whatsapp-button:hover {
+  background-color: #1ebe5d;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+ul li {
+  margin-bottom: 12px;
+}
+
+
